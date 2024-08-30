@@ -1,5 +1,4 @@
 import {Response} from "express";
-require('dotenv').config();
 import jwt from "jsonwebtoken";
 
 
