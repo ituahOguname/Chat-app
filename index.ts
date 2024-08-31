@@ -11,6 +11,7 @@ app.use(express.json()); // for parsing application/json
 
 
 app.use("/api/auth", authRouter);
+app.use("/api/messages", messageRouter);
 
 app.listen(process.env.PORT, () => {
     console.log(`Server is connected with port ${process.env.PORT}`);
